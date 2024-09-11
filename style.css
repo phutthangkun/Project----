@@ -566,7 +566,7 @@ h3{font-size: var(--fs-4);}
   .container {max-width: 100%;}
   .scrollbar-item{min-width: calc(20% - 24px);}
 
-  .header .input-warpper,
+  .header .input-wrapper,
   .header-action-btn:not(:first-child),
   .navbar {display: block;}
 
@@ -585,7 +585,7 @@ h3{font-size: var(--fs-4);}
 
   .header-top .container {flex-wrap: wrap;}
 
-  .search.field {
+  .search-field {
     width: 270;
     font-size: var(--fs-7);
     border: 2px solid var(--hoockers-green);
@@ -596,11 +596,11 @@ h3{font-size: var(--fs-4);}
     transition: var(--transition-1);
   }
 
-  .search.field::placeholder {color: var(--light-gray);}
+  .search-field::placeholder {color: var(--black);}
 
-  .search.field:focus { border-color: var(--black);}
+  .search-field:focus { border-color: var(--black);}
 
-  .header .input-warpper {position: relative;}
+  .header .input-wrapper {position: relative;}
 
   .header .search-submit {
     position: absolute;
